@@ -10,4 +10,6 @@ const twoNumberSum = (array, targetSum) => {
     }
   };
 
+// O(n) time; O(n) space
+
 module.exports = twoNumberSum;
