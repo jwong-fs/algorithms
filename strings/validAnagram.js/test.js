@@ -11,3 +11,7 @@ test('Inputs II', () => {
 test('Inputs III', () => {
     expect(func("anagram", "nagaram")).toBe(true);
 });
+
+test('Inputs IV', () => {
+    expect(func("awesom", "awesome")).toBe(false);
+});
