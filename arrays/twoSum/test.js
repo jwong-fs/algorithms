@@ -1,4 +1,4 @@
-const func = require('./solution');
+const func = require('./twoSum');
 
 test('Inputs I', () => {
     expect(func([2,7,11,15], 9) === [0,1] || func([2,7,11,15], 9) === [1,0]).toBeTruthy;
