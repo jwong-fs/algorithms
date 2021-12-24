@@ -40,3 +40,32 @@ function validAnagram(str1, str2){
 // O(n) time; O(n) space
 
 module.exports = validAnagram
+
+
+// Refactored improvement
+
+function validAnagramImproved(str1, str2){
+    if (str1.length !== str2.length) {
+        return false
+    }
+
+    let str1Freq = {}
+
+    for (let char of str1) {
+        if (str1Freq[char]) {
+            str1Freq[char]++
+        } else {
+            str1Freq[char] = 1
+        }
+    }
+    
+    for (let char of str2) {
+        if (!str1Freq[char]) {
+            return false
+        } else {
+            str1Freq[char]--
+        }
+    }
+    
+    return true
+  }
