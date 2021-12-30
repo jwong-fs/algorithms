@@ -18,4 +18,6 @@ const maxSubarraySum = (arr, num) => {
     return maxSum
 }
 
+// O(n) time; O(1) space
+
 module.exports = maxSubarraySum;
