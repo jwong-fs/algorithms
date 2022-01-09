@@ -28,4 +28,6 @@ function minSubArrayLen(array, num) {
     return minLen === Infinity ? 0 : minLen;
 }
 
+// O(n) time; O(1) space
+
 module.exports = minSubArrayLen;

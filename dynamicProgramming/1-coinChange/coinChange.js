@@ -24,4 +24,6 @@ function coinChange (amount, coins) {
     return ways[amount];
   }
 
+// O(m*n) time; O(n) space
+
 module.exports = coinChange;

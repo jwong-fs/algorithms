@@ -33,4 +33,6 @@ function threeNumberSum(array) {
   return result
 }
 
+// O(n^2) time; O(n) space
+
 module.exports = threeNumberSum
