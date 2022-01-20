@@ -13,7 +13,7 @@ const trappingRainWater = heights => {
         if (heights[leftIdx] < heights[rightIdx]) {
             leftIdx++;
             leftMax = Math.max(leftMax, heights[leftIdx]);
-            water += leftMax - heights[rightIdx];
+            water += leftMax - heights[leftIdx];
         } else {
             rightIdx--;
             rightMax = Math.max(rightMax, heights[rightIdx]);
