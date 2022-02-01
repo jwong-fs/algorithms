@@ -28,11 +28,3 @@ test('Inputs II', () => {
     newBST.insert(61)
     expect(findClosestValueInBST(newBST, 115)).toBe(114);
 });
-
-// test('Inputs III', () => {
-//     expect(func([0])).toStrictEqual([]);
-// });
-
-// test('Inputs IV', () => {
-//     expect(func([-1,0,1,2,-1,-4])).toStrictEqual([[-1,-1,2],[-1,0,1]]);
-// });
